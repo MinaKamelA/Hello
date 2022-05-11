@@ -6,7 +6,8 @@
   "scripts": {
     "start": "node server.js",
     "dev": "nodemon server.ts",
-    "build": "tsc",
+    "clean": "rimraf dist/ || true",
+    "build": "npm run clean && tsc && copy \"package.json\" \"./dist/package.json\" && copy \".npmrc\" \"./dist/.npmrc\" && xcopy /E /I \"./public\" \"./dist/public\" && cd dist && zip -r dist.zip . && cd ..",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
