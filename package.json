@@ -1,0 +1,28 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "A simple task to showcase skills in typescript and elastic beanstalk",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MinaKamelA/Hello.git"
+  },
+  "keywords": [
+    "Typescript",
+    "AWS",
+    "Elastic",
+    "Beanstalk"
+  ],
+  "author": "Mina Kamel",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MinaKamelA/Hello/issues"
+  },
+  "homepage": "https://github.com/MinaKamelA/Hello#readme",
+  "devDependencies": {
+    "typescript": "^4.6.4"
+  }
+}
